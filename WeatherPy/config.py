@@ -1,2 +1,0 @@
-weather_key="48efaefe5cf9803057bbfc35d7c671ab"
-gkey="AIzaSyBc85X3hYPda7vSLHkyedq_9qcfVVHWlSA"
