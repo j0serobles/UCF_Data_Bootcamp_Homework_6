@@ -15,7 +15,7 @@ But, if pressed, how would you **prove** it?
 
 ## Part I - WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+In this example, we created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we used a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -79,6 +79,9 @@ To complete this part of the assignment,you will need to do the following:
   ![hotel map](Images/hotel_map.png)
   
   ### Files
+  
+  Note: You will find two versions of the WeatherPy jupyter notebook under the WeatherPy folder.  WeatherPy-Citypy uses the citypy library to get the
+  random city names, while WeatherPy creates the city list by randomly selecting from `openweather.com`'s own list of cities.
 
 ```
 +<Project Top>
@@ -107,6 +110,7 @@ To complete this part of the assignment,you will need to do the following:
        config.py - Stores keys, not pushed to Github
        countryCodes.json - Json file with country codes, names 
        WeatherPy.ipynb - Jupyter notebook for part 1
+	   WeatherPy-Citypy.ipynb - Jupyter notebook for part 1, using the citipy library.
        weather_data.csv - Output file with weather data from openweather.com
 ```
 
